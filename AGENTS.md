@@ -7,3 +7,7 @@
 - Use the supplied purple home jersey. The original art is in the interactive kit viewer.
 - Do not use em dashes in copy.
 - After edits, publish to GitHub Pages and verify the live page before returning its link.
+
+- All contact and sponsor inquiry links must go to `antonie@vessel-archive.com`, as specified by the owner.
+- Identify Street Soccer USA clearly as a nonprofit.
+- Keep launch-photo captions in document flow below the image. Verify this section at 320px, 390px, and 430px before publishing responsive-layout changes.

@@ -26,7 +26,7 @@ Use the chapter numbers on desktop to present as a deck. The mobile version scro
 - The illustrative content package: one 60–90 second hero film, one 30-second ad, six 6–15 second edits, and twelve edited photographs.
 - Talent, music, likeness, term, territory, paid use, exclusivity, and partner-channel commitments.
 - Metrics, reporting responsibilities, paid distribution, and campaign goals.
-- Sponsor inquiry destination. The working link uses Vessel Archive's public business contact, `teo@vessel-archive.com`; replace it with Conti's preferred address if appropriate.
+- Sponsor inquiry destination is confirmed: `antonie@vessel-archive.com`. All contact links must use this address.
 
 The site does not claim a direct donation, guaranteed reach, booked editorial coverage, or a “first-ever” collaboration. Instagram followers are a dated supplied snapshot, not a forecast.
 

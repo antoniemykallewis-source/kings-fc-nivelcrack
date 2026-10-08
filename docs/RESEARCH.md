@@ -24,6 +24,7 @@ Supporting award/credit references: [Awwwards archive](https://awwwards.withseis
 | Media relationships | Supplied Nivelcrack media roster | Selected names only. No addition of outlet audiences, no guaranteed placement, and no estimated impression total. |
 | Instagram follower snapshot | Supplied screenshots dated October 8, 2026 | Cissé 2.8M plus Borriello 956K gives approximately 3.76M combined followers. Audiences overlap; participation and posting are pending. |
 | Lisa Wrightsman and Tiffany Fraser's community story | [Sacramento State, October 29, 2021](https://www.csus.edu/news/made/stories/2021/10/street-soccer-sacramento.html) | Short paraphrase focused on recovery, belonging, and community. No invented testimonial or impact number. |
+| Nonprofit status | [Street Soccer USA official statement](https://www.streetsoccerusa.org/2023/06/09/homeless-world-cup-and-street-soccer-usa-reveal-the-logo-for-its-2023-tournament/) | National 501(c)(3) nonprofit using soccer to fight poverty and strengthen communities. |
 | Sacramento programming | [Street Soccer USA Sacramento](https://www.streetsoccerusa.org/cities/sacramento/) | Community football and youth access. The campaign does not promise direct program funding. |
 | Venezia collaboration | [Venezia FC official announcement](https://en.veneziafc.it/news/venezia-fc-e-nivelcrack-insieme-per-una-limited-edition) | Supports the portfolio's connection to international football. |
 

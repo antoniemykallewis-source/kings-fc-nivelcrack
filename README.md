@@ -32,7 +32,7 @@ Open `http://localhost:4173`.
 - `docs/HANDOFF.md`: presentation guidance and items to finalize.
 - `docs/preview.jpg`: desktop preview of the finished page.
 
-The inquiry button currently uses Vessel Archive’s public contact, `teo@vessel-archive.com`. Change the `mailto:` address in `index.html` if Conti should receive inquiries directly. No messages are sent automatically.
+All sponsor inquiries go to `antonie@vessel-archive.com`, as directed by the project owner. Keep that address on every contact link. No messages are sent automatically.
 
 The site includes reduced-motion support, accessible dialogs, keyboard-operated tabs, responsive layouts, and local assets. There is no backend or analytics collection. The default robots setting is `noindex,nofollow` because this is a proposal.
 
