@@ -73,3 +73,5 @@ body .sponsor-placement small{font-size:1.7cqw;margin-top:2cqw;line-height:1.5}
 .garment-tag{top:auto;bottom:12%}
 .kit-showcase-visual{overflow:hidden}
 @media(max-width:760px){body .garment-tag{top:auto;bottom:0;right:0}}
+
+@media(max-width:380px){body .topbar{gap:12px}body .wordmark{font-size:13px;gap:4px;white-space:nowrap;flex-shrink:0}body .wordmark .nivel-word{font-size:10px}body .wordmark b{font-size:18px}body .nav-cta{font-size:10px;white-space:nowrap}body .header-actions{gap:7px;flex-shrink:0}body .motion-toggle{width:14px;flex-shrink:0;justify-content:center}}
