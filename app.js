@@ -47,6 +47,10 @@
     $('#sponsor-placement').hidden = !front; $('#kit-flat').style.transform = `perspective(1000px) rotateY(${front ? -8 : 8}deg)`;
     $$('[data-kit]').forEach(b => { const active = b === button; b.classList.toggle('active', active); b.setAttribute('aria-pressed', String(active)); });
   }));
+  $$('[data-kit-focus]').forEach(button => button.addEventListener('click', () => {
+    $('#kit-spotlight').dataset.focus = button.dataset.kitFocus;
+    $$('[data-kit-focus]').forEach(b => b.setAttribute('aria-pressed', String(b === button)));
+  }));
   const tabs = $$('[role="tab"]');
   function selectTab(tab) { tabs.forEach(b => { const active = b === tab; b.setAttribute('aria-selected', String(active)); b.tabIndex = active ? 0 : -1; $('#' + b.getAttribute('aria-controls')).hidden = !active; }); updateScroll(); }
   tabs.forEach((tab, i) => {
@@ -62,7 +66,7 @@
     { name: 'BANGKOK', lat: 13.7563, lon: 100.5018 }, { name: 'QINHUANGDAO', lat: 39.9354, lon: 119.6005 }
   ];
   const globeText = {
-    sacramento: ['38.5816° N / 121.4944° W', 'The Kings, Street Soccer USA, and the community at the center of it all.'],
+    sacramento: ['38.5816° N / 121.4944° W', 'The Sacramento Kings, Street Soccer USA, and the community at the center of it all.'],
     seoul: ['37.5665° N / 126.9780° E', 'Nivelcrack’s home. Football, fashion, and creative culture, connected internationally.'],
     global: ['ONE GAME / MANY COMMUNITIES', 'Paris. Tokyo. Bangkok. Qinhuangdao. Real cities in Nivelcrack’s history of international activations.']
   };
@@ -93,8 +97,8 @@
     latitudes.forEach(p => line(p, 'rgba(185,150,255,.19)')); longitudes.forEach(p => line(p, 'rgba(185,150,255,.19)'));
     for (const point of dots) { const p = projected(point); if (p[2] < 0) continue; ctx.fillStyle = `rgba(185,150,255,${.15 + p[2] * .35})`; ctx.beginPath(); ctx.arc(p[0], p[1], .9 + p[2] * .6, 0, Math.PI * 2); ctx.fill(); }
     const from = xyz(locations[0].lat, locations[0].lon);
-    locations.slice(1).forEach(loc => { const to = xyz(loc.lat, loc.lon), points = []; for (let j = 0; j <= 60; j++) { const t = j / 60, q = from.map((v, i) => v * (1 - t) + to[i] * t), length = Math.hypot(...q), lift = 1 + Math.sin(Math.PI * t) * .28; points.push(q.map(v => v / length * lift)); } line(points, 'rgba(223,255,0,.5)', .8); });
-    locations.forEach((loc, i) => { const p = projected(xyz(loc.lat, loc.lon)); if (p[2] < .02) return; const active = loc.key === selected; ctx.fillStyle = active ? '#dfff00' : '#f2eee5'; ctx.beginPath(); ctx.arc(p[0], p[1], active ? 5 : 3, 0, Math.PI * 2); ctx.fill(); ctx.strokeStyle = active ? 'rgba(223,255,0,.4)' : 'rgba(242,238,229,.25)'; ctx.beginPath(); ctx.arc(p[0], p[1], active ? 12 + (paused ? 0 : Math.sin(time / 500) * 2) : 8, 0, Math.PI * 2); ctx.stroke(); if (active || (selected === 'global' && i !== 5 && i !== 3) || (selected === 'seoul' && i === 3)) { ctx.font = `11px "Martian Mono",monospace`; ctx.fillStyle = active ? '#dfff00' : '#f2eee5'; const textWidth = ctx.measureText(loc.name).width; const tx = p[0] + 15 + textWidth > width ? p[0] - textWidth - 15 : p[0] + 15; ctx.fillText(loc.name, tx, p[1] + (i === 3 ? 20 : 4)); } });
+    locations.slice(1).forEach(loc => { const to = xyz(loc.lat, loc.lon), points = []; for (let j = 0; j <= 60; j++) { const t = j / 60, q = from.map((v, i) => v * (1 - t) + to[i] * t), length = Math.hypot(...q), lift = 1 + Math.sin(Math.PI * t) * .28; points.push(q.map(v => v / length * lift)); } line(points, 'rgba(196,200,210,.5)', .8); });
+    locations.forEach((loc, i) => { const p = projected(xyz(loc.lat, loc.lon)); if (p[2] < .02) return; const active = loc.key === selected; ctx.fillStyle = active ? '#c4c8d2' : '#f5f5f7'; ctx.beginPath(); ctx.arc(p[0], p[1], active ? 5 : 3, 0, Math.PI * 2); ctx.fill(); ctx.strokeStyle = active ? 'rgba(196,200,210,.4)' : 'rgba(245,245,247,.25)'; ctx.beginPath(); ctx.arc(p[0], p[1], active ? 12 + (paused ? 0 : Math.sin(time / 500) * 2) : 8, 0, Math.PI * 2); ctx.stroke(); if (active || (selected === 'global' && i !== 5 && i !== 3) || (selected === 'seoul' && i === 3)) { ctx.font = `11px "Martian Mono",monospace`; ctx.fillStyle = active ? '#c4c8d2' : '#f5f5f7'; const textWidth = ctx.measureText(loc.name).width; const tx = p[0] + 15 + textWidth > width ? p[0] - textWidth - 15 : p[0] + 15; ctx.fillText(loc.name, tx, p[1] + (i === 3 ? 20 : 4)); } });
   }
   function animate(time) { requestAnimationFrame(animate); if (!visible || time - last < 32) return; last = time; if (!paused) { rotation += (targetRotation - rotation) * .06; if (selected === 'global') targetRotation += .002; } drawGlobe(time); }
   resizeGlobe(); drawGlobe(0); requestAnimationFrame(animate);

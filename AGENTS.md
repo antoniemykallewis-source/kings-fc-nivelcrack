@@ -11,3 +11,8 @@
 - All contact and sponsor inquiry links must go to `antonie@vessel-archive.com`, as specified by the owner.
 - Identify Street Soccer USA clearly as a nonprofit.
 - Keep launch-photo captions in document flow below the image. Verify this section at 320px, 390px, and 430px before publishing responsive-layout changes.
+
+- Use Kings purple, silver, white, and black. No yellow, lime, or gold accents.
+- Make the Sacramento Kings collaboration explicit and identify them briefly as Sacramento’s NBA team.
+- Keep sponsor marks compact and traditionally proportioned. Use jersey-hero-v2.webp for the approved smaller mark.
+- Treat first-of-its-kind language as campaign ambition, not a verified historical first.

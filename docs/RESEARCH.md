@@ -39,3 +39,9 @@ Supporting award/credit references: [Awwwards archive](https://awwwards.withseis
 - Archivo, Instrument Serif, and Martian Mono: Google Fonts distributions under the SIL Open Font License. License notices are in `licenses/` in the deployed website and the GitHub pack.
 
 Brand names and artwork belong to their respective owners. Inclusion in this proposal does not transfer campaign, likeness, or paid-media rights.
+
+## October 8 feedback revision
+- Sacramento Kings are identified as Sacramento’s NBA team. Golden 1 Center is their home arena: https://cdn.nba.com/teams/uploads/sites/1610612758/2023/10/2023-24SacramentoKingsMediaGuide.pdf . The collaboration itself is stated in the client brief.
+- Avoid a factual world-first claim. Earlier basketball/football crossovers include PSG x Jordan (2018): https://en.psg.fr/teams/first-team/content/michael-jordan-visits-paris-saint-germain-in-paris . The page frames a first-of-its-kind Kings campaign as the ambition for this particular combination, pending talent participation.
+- Approved smaller sponsor wordmark: assets/jersey-hero-v2.webp. Built-in ImageGen edit of the previous hero: preserve the jersey, reduce YOUR LOGO HERE to a compact single chest line, retain a small Street Soccer USA credit, restore the lower striped fabric, preserve transparent background.
+- Updated palette: purple #592d85, silver #c4c8d2, white #f5f5f7, black #0b0b0b.
