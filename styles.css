@@ -75,3 +75,12 @@ body .sponsor-placement small{font-size:1.7cqw;margin-top:2cqw;line-height:1.5}
 @media(max-width:760px){body .garment-tag{top:auto;bottom:0;right:0}}
 
 @media(max-width:380px){body .topbar{gap:12px}body .wordmark{font-size:13px;gap:4px;white-space:nowrap;flex-shrink:0}body .wordmark .nivel-word{font-size:10px}body .wordmark b{font-size:18px}body .nav-cta{font-size:10px;white-space:nowrap}body .header-actions{gap:7px;flex-shrink:0}body .motion-toggle{width:14px;flex-shrink:0;justify-content:center}}
+
+/* Introduce both collaborators before the community story. */
+.collaboration-primer{display:grid;grid-template-columns:1fr auto 1fr;gap:38px;align-items:center;border-top:1px solid var(--line);padding:28px 0 5px;margin-top:32px}
+.collaboration-primer>div{min-width:0}
+.collaboration-primer .eyebrow{color:var(--purple);font-size:10px;line-height:1.5}
+.collaboration-primer h2{font-size:25px;line-height:1.15;letter-spacing:-.035em;margin:10px 0}
+.collaboration-primer p{font-size:15px;line-height:1.6;max-width:470px}
+.primer-cross{font-size:48px;line-height:1;font-weight:300;color:var(--purple)}
+@media(max-width:760px){.collaboration-primer{grid-template-columns:1fr;gap:22px;padding-top:25px;margin-top:28px}.primer-cross{display:none}.collaboration-primer h2{font-size:23px}.collaboration-primer p{font-size:15px}.collaboration-primer>div+span+div{border-top:1px solid var(--line);padding-top:22px}}

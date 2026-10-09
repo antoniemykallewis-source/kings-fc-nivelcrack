@@ -16,3 +16,5 @@
 - Make the Sacramento Kings collaboration explicit and identify them briefly as Sacramento’s NBA team.
 - Keep sponsor marks compact and traditionally proportioned. Use jersey-hero-v2.webp for the approved smaller mark.
 - Treat first-of-its-kind language as campaign ambition, not a verified historical first.
+
+- Introduce Sacramento Kings and Nivelcrack at the beginning. This is a full apparel collaboration; the purple jersey is the centerpiece of a wider collection, per the owner.
