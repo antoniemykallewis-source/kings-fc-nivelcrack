@@ -195,3 +195,4 @@ body .sponsor-placement>span{font-size:2.9cqw;line-height:1.15;overflow-wrap:any
   body .campaign-talent .talent-count{grid-column:1/-1}
   .campaign-talent .talent-handle{overflow-wrap:anywhere}
 }
+@media(max-width:380px){.campaign-talent .talent-card h4{font-size:20px;letter-spacing:-.05em}}
