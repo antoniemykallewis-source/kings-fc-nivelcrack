@@ -45,3 +45,13 @@ Brand names and artwork belong to their respective owners. Inclusion in this pro
 - Avoid a factual world-first claim. Earlier basketball/football crossovers include PSG x Jordan (2018): https://en.psg.fr/teams/first-team/content/michael-jordan-visits-paris-saint-germain-in-paris . The page frames a first-of-its-kind Kings campaign as the ambition for this particular combination, pending talent participation.
 - Approved smaller sponsor wordmark: assets/jersey-hero-v2.webp. Built-in ImageGen edit of the previous hero: preserve the jersey, reduce YOUR LOGO HERE to a compact single chest line, retain a small Street Soccer USA credit, restore the lower striped fabric, preserve transparent background.
 - Updated palette: purple #592d85, silver #c4c8d2, white #f5f5f7, black #0b0b0b.
+
+## October 14 narrative and placement revision
+
+- The project owner requested a collection-and-sponsorship opening, nonprofit initiative before personal biographies, Nivelcrack credibility, then the proposed campaign and partner invitation.
+- Rechecked the [official Sacramento program page](https://www.streetsoccerusa.org/cities/sacramento/) on October 14. It identifies free youth programming and men’s/women’s programs for people experiencing or transitioning out of homelessness. No program counts or outcome estimates have been added.
+- User-supplied Chivas and Boca examples inform the separation of front/back marks only; their imagery and colors are not used in the site.
+- `assets/jersey-front-v3.webp`: built-in ImageGen precise object edit of `jersey-hero-v2.webp`. Prompt: remove only YOUR LOGO HERE; reconstruct the striped fabric; retain the compact Street Soccer USA / Sacramento front treatment, exact shirt design, crest, lighting, framing and transparent background.
+- `assets/jersey-back-v3.webp`: built-in ImageGen product mockup. Prompt: use `kit-original-back.png` as the exact back-design reference and `jersey-hero-v2.webp` for realistic material/style; preserve purple/black stripes, pinstripes, crown and trim; place a single compact YOUR LOGO HERE line high on the back below the crown; no nonprofit mark, name or number; transparent background.
+- Both generated PNGs were inspected and converted to WebP for delivery. The old combined-mark renders remain in Git history/assets but are not referenced by the page.
+- The code-native original-art viewer overlays exactly one mark per side and supports the reversed arrangement. These are proposed placements, not approved manufacturing artwork.

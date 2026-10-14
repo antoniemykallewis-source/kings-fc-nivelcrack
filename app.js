@@ -40,17 +40,30 @@
     dialog.addEventListener('click', event => { if (event.target === dialog) { const r = dialog.getBoundingClientRect(); if (event.clientX < r.left || event.clientX > r.right || event.clientY < r.top || event.clientY > r.bottom) dialog.close(); } });
     dialog.addEventListener('close', () => { if (dialogOpener) dialogOpener.focus(); });
   });
-  $('#brand-input').addEventListener('input', e => { $('#sponsor-name').textContent = e.target.value.trim() || 'YOUR LOGO HERE'; });
-  $$('[data-kit]').forEach(button => button.addEventListener('click', () => {
-    const front = button.dataset.kit === 'front'; $('#kit-artwork').src = `assets/kit-original-${front ? 'front' : 'back'}.png`;
-    $('#kit-artwork').alt = `Original purple Kings FC home jersey ${front ? 'front' : 'back'} from the supplied range plan`;
-    $('#sponsor-placement').hidden = !front; $('#kit-flat').style.transform = `perspective(1000px) rotateY(${front ? -8 : 8}deg)`;
-    $$('[data-kit]').forEach(b => { const active = b === button; b.classList.toggle('active', active); b.setAttribute('aria-pressed', String(active)); });
-  }));
-  $$('[data-kit-focus]').forEach(button => button.addEventListener('click', () => {
-    $('#kit-spotlight').dataset.focus = button.dataset.kitFocus;
-    $$('[data-kit-focus]').forEach(b => b.setAttribute('aria-pressed', String(b === button)));
-  }));
+  let kitSide = 'front';
+  const brandInput = $('#brand-input');
+  const arrangement = $('#placement-arrangement');
+  function updateKit() {
+    const front = kitSide === 'front';
+    const sponsorFront = arrangement.value === 'sponsor-front';
+    const sponsorVisible = front === sponsorFront;
+    $('#kit-artwork').src = `assets/kit-original-${kitSide}.png`;
+    $('#kit-artwork').alt = `Original purple Kings FC home jersey ${kitSide} from the supplied range plan`;
+    $('#kit-flat').dataset.side = kitSide;
+    $('#kit-flat').style.transform = `perspective(1000px) rotateY(${front ? -8 : 8}deg)`;
+    $('#sponsor-name').textContent = brandInput.value.trim() || 'YOUR LOGO HERE';
+    $('#sponsor-placement').hidden = !sponsorVisible;
+    $('#community-placement').hidden = sponsorVisible;
+    $('#kit-side-caption').textContent = `${front ? 'FRONT' : 'UPPER BACK'} / ${sponsorVisible ? 'YOUR SPONSOR MARK' : 'STREET SOCCER USA'}`;
+    $('#placement-explanation').textContent = sponsorFront
+      ? 'Your sponsor mark on the front. Street Soccer USA on the upper back. The logos are never grouped together.'
+      : 'Street Soccer USA on the front. Your sponsor mark high on the back. The logos are never grouped together.';
+    $$('[data-kit]').forEach(b => { const active = b.dataset.kit === kitSide; b.classList.toggle('active', active); b.setAttribute('aria-pressed', String(active)); });
+  }
+  brandInput.addEventListener('input', () => { kitSide = arrangement.value === 'sponsor-front' ? 'front' : 'back'; updateKit(); });
+  arrangement.addEventListener('change', () => { kitSide = arrangement.value === 'sponsor-front' ? 'front' : 'back'; updateKit(); });
+  $$('[data-kit]').forEach(button => button.addEventListener('click', () => { kitSide = button.dataset.kit; updateKit(); }));
+  updateKit();
   const tabs = $$('[role="tab"]');
   function selectTab(tab) { tabs.forEach(b => { const active = b === tab; b.setAttribute('aria-selected', String(active)); b.tabIndex = active ? 0 : -1; $('#' + b.getAttribute('aria-controls')).hidden = !active; }); updateScroll(); }
   tabs.forEach((tab, i) => {

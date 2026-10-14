@@ -14,7 +14,10 @@
 
 - Use Kings purple, silver, white, and black. No yellow, lime, or gold accents.
 - Make the Sacramento Kings collaboration explicit and identify them briefly as Sacramento’s NBA team.
-- Keep sponsor marks compact and traditionally proportioned. Use jersey-hero-v2.webp for the approved smaller mark.
+- Keep sponsor marks compact and traditionally proportioned. Use jersey-front-v3.webp for Street Soccer USA alone on the front and jersey-back-v3.webp for the small upper-back sponsor. Never display the old combined sponsor/nonprofit treatment.
 - Treat first-of-its-kind language as campaign ambition, not a verified historical first.
 
 - Introduce Sacramento Kings and Nivelcrack at the beginning. This is a full apparel collaboration; the purple jersey is the centerpiece of a wider collection, per the owner.
+- Lead with the global clothing collaboration and sponsorship opportunity. Then the Sacramento community campaign, Nivelcrack and its global footprint, proposed talent/launch/deliverables, and a direct “Partner with us” close.
+- Street Soccer USA is the nonprofit initiative amplified by the campaign. Lead with its Sacramento work, not Lisa and Tiffany’s biography. Do not invent impact statistics.
+- Sponsor and Street Soccer USA marks must be on opposite sides of the jersey, never grouped together. Default: Street Soccer USA front, small sponsor high on the back. The interactive study can reverse that arrangement.
