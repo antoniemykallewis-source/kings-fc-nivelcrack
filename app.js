@@ -51,13 +51,15 @@
     $('#kit-artwork').alt = `Original purple Kings FC home jersey ${kitSide} from the supplied range plan`;
     $('#kit-flat').dataset.side = kitSide;
     $('#kit-flat').style.transform = `perspective(1000px) rotateY(${front ? -8 : 8}deg)`;
-    $('#sponsor-name').textContent = brandInput.value.trim() || 'YOUR LOGO HERE';
+    const sponsorName = brandInput.value.trim() || 'YOUR LOGO HERE';
+    $('#sponsor-name').textContent = sponsorName;
+    $('#sponsor-name').style.setProperty('--sponsor-scale', Math.min(1, 14 / sponsorName.length));
     $('#sponsor-placement').hidden = !sponsorVisible;
     $('#community-placement').hidden = sponsorVisible;
     $('#kit-side-caption').textContent = `${front ? 'FRONT' : 'UPPER BACK'} / ${sponsorVisible ? 'YOUR SPONSOR MARK' : 'STREET SOCCER USA'}`;
     $('#placement-explanation').textContent = sponsorFront
       ? 'Your sponsor mark on the front. Street Soccer USA on the upper back. The logos are never grouped together.'
-      : 'Street Soccer USA on the front. Your sponsor mark high on the back. The logos are never grouped together.';
+      : 'Street Soccer USA on the front. Your sponsor mark bold across the upper back. The logos are never grouped together.';
     $$('[data-kit]').forEach(b => { const active = b.dataset.kit === kitSide; b.classList.toggle('active', active); b.setAttribute('aria-pressed', String(active)); });
   }
   brandInput.addEventListener('input', () => { kitSide = arrangement.value === 'sponsor-front' ? 'front' : 'back'; updateKit(); });

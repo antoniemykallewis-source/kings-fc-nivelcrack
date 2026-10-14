@@ -28,7 +28,7 @@ Use the chapter numbers on desktop to present as a deck. The mobile version scro
 - Metrics, reporting responsibilities, paid distribution, and campaign goals.
 - Sponsor inquiry destination is confirmed: `antonie@vessel-archive.com`. All contact links must use this address.
 
-The site does not claim a direct donation, guaranteed reach, booked editorial coverage, or a “first-ever” collaboration. Instagram followers are a dated supplied snapshot, not a forecast.
+The site does not claim a direct donation, guaranteed reach, booked editorial coverage, or a “first-ever” collaboration. Talent followers are a dated supplied snapshot; media followers are approximate public counts researched October 14, 2026. Neither is a campaign forecast.
 
 ## Artwork and rights
 
@@ -41,3 +41,13 @@ Community photography and the Nivelcrack portfolio are credited in the research 
 Street Soccer USA’s nonprofit work leads the community section; Lisa and Tiffany’s biography no longer leads the story. No impact metrics have been invented. The dimensional front/back jersey pair demonstrates separate placements. The interactive original-art viewer can reverse them.
 
 The unlinked `docs/responsive-preview.html` review page presents 320px, 390px and 430px iframes. Use its section links to review the mobile experience.
+
+## October 14 portfolio and placement revision
+
+The header now reads Sacramento Kings FC. Nivelcrack’s section shows its actual FIFA 23 Captain Korea kit in-game and the West Ham United collaboration, from official portfolio/shop sources.
+
+The jersey front uses the official Street Soccer USA white SVG logo, kept as vector geometry within the dimensional artwork. The back sponsor is now deliberately large and bold, spanning shoulder to shoulder; this supersedes the earlier compact sponsor direction. The original-art viewer also uses the actual nonprofit logo and a larger upper-back sponsor name.
+
+The media roster displays HYPEBEAST 10.24M, SoccerBible 5.55M, COPA90 1.35M, VERSUS 681K and MUNDIAL 185K approximate Instagram followers. Approximately 18M is the gross combined follower total, not unique audience, impressions or guaranteed coverage. The proposed ambition is millions of global digital impressions, subject to secured distribution and editorial coverage. Source links and dating are in the proposal notes.
+
+The campaign title is “Grassroots impact. Global recognition.” Its community cast description uses the owner’s exact updated wording.

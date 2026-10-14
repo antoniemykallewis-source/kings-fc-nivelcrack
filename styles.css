@@ -196,3 +196,94 @@ body .sponsor-placement>span{font-size:2.9cqw;line-height:1.15;overflow-wrap:any
   .campaign-talent .talent-handle{overflow-wrap:anywhere}
 }
 @media(max-width:380px){.campaign-talent .talent-card h4{font-size:20px;letter-spacing:-.05em}}
+
+/* October 14: official portfolio, media audience and distinct kit identities. */
+.wordmark{white-space:nowrap}
+.culture-heading .serif-note{font-size:1.22em;line-height:.9}
+.culture-gallery{grid-template-columns:repeat(2,minmax(0,1fr));align-items:start;gap:32px;margin-top:56px}
+.culture-photo{margin:0;padding:10px;min-width:0;box-shadow:9px 12px 0 #0002}
+.culture-photo-main{transform:rotate(-2deg)}
+.culture-photo-second{transform:rotate(2deg);margin-top:46px}
+.culture-photo>a{display:block;overflow:hidden}
+.culture-photo img,.culture-photo-second img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover}
+body .culture-photo figcaption{padding:18px 10px 12px;font-size:12px;line-height:1.5}
+.culture-photo figcaption>span{display:block;color:#c4c8d2;font-size:11px;letter-spacing:.02em}
+.culture-photo figcaption strong{display:block;font:700 clamp(19px,2vw,28px)/1.12 var(--display);letter-spacing:-.04em;margin-top:12px}
+.culture-photo figcaption p{font:400 14px/1.5 var(--display);color:#bfc0c9;margin:10px 0 0;max-width:33ch}
+.culture-proof{grid-column:1/-1;margin-top:18px;padding:28px 0 0;border-top:1px solid #ffffff35}
+.culture-proof .brand-list{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between;gap:20px 28px;font-size:22px;margin:24px 0}
+.media-audience{margin-top:52px;padding-top:40px;border-top:1px solid #ffffff35;scroll-margin-top:30px}
+.media-audience-heading{display:flex;align-items:end;justify-content:space-between;gap:28px;margin-bottom:35px}
+.media-audience-heading .eyebrow{color:#c4c8d2}
+.media-audience-heading h3{font:850 clamp(36px,4.1vw,64px)/.95 var(--display);font-variation-settings:"wdth" 80,"wght" 850;letter-spacing:-.05em;margin-top:20px}
+.media-total{flex-shrink:0;text-align:right}
+.media-total>strong{display:block;font:850 clamp(90px,11.5vw,170px)/.8 var(--display);font-variation-settings:"wdth" 75,"wght" 850;letter-spacing:-.08em;color:var(--lavender);white-space:nowrap}
+.media-total>strong>span{font-size:.6em;letter-spacing:-.04em}
+.media-total>strong>.approx{font-size:.4em;margin-right:.14em;vertical-align:15%}
+.media-total p{font:11px/1.6 var(--mono);margin-top:20px;letter-spacing:.01em}
+.media-cards{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border:1px solid #ffffff35}
+.media-cards>a{min-width:0;padding:24px 18px;border-right:1px solid #ffffff35;display:flex;flex-direction:column;transition:background .2s}
+.media-cards>a:last-child{border-right:0}
+.media-cards>a:hover,.media-cards>a:focus-visible{background:#ffffff0a}
+.media-name{font-size:clamp(13px,1.3vw,19px);font-weight:850;letter-spacing:-.04em}
+.media-cards strong{font:750 clamp(30px,3.2vw,46px)/1 var(--display);letter-spacing:-.065em;margin:26px 0 12px}
+.media-handle{font:11px/1.5 var(--mono);color:#c4c8d2;overflow-wrap:anywhere}
+.media-ambition{font-size:clamp(21px,2.5vw,34px);font-weight:550;letter-spacing:-.04em;line-height:1.2;margin:30px 0 14px;max-width:40ch}
+.media-audience .media-note{max-width:100ch;font-size:12px;line-height:1.7}
+.launch-head .display{font-size:clamp(42px,4.9vw,80px);max-width:17ch;flex-shrink:0;line-height:.97}
+.launch-head>p{max-width:34ch}
+.community-placement{left:36%;width:28%;top:41%}
+.kit-flat .community-placement img{display:block;width:100%;height:auto;mix-blend-mode:normal;filter:none;transform:none}
+#kit-flat[data-side="back"] .community-placement{top:24%;left:37%;width:26%}
+#kit-flat[data-side="back"] .sponsor-placement{top:25%;left:22%;width:56%}
+#kit-flat[data-side="back"] .sponsor-placement>span{font-family:Arial,sans-serif;font-size:calc(5.1cqw * var(--sponsor-scale,1));font-weight:900;letter-spacing:-.045em;line-height:1.05;white-space:nowrap}
+@media(max-width:1000px){
+  .culture-proof .brand-list{font-size:20px;justify-content:flex-start}
+  .media-cards>a{padding:20px 12px}
+  .media-name{font-size:13px}
+  .media-handle{font-size:10px}
+  .launch-head{align-items:start;gap:28px}
+  .launch-head .display{font-size:5vw}
+}
+@media(max-width:760px){
+  .culture-heading .serif-note{font-size:1.18em}
+  .culture-gallery{grid-template-columns:1fr;gap:32px;margin-top:36px;padding:0 6px}
+  .culture-photo{padding:8px;box-shadow:6px 8px 0 #0002}
+  .culture-photo-main{transform:rotate(-1.5deg)}
+  .culture-photo-second{transform:rotate(1.5deg);margin-top:0}
+  body .culture-photo figcaption{padding:15px 9px 10px}
+  .culture-photo figcaption strong{font-size:23px}
+  .culture-photo figcaption p{font-size:14px}
+  .culture-proof{margin-top:8px;padding-top:24px}
+  .culture-proof .brand-list{font-size:19px;gap:18px 24px}
+  .media-audience{margin-top:32px;padding-top:30px}
+  .media-audience-heading{flex-direction:column;align-items:start;gap:32px;margin-bottom:24px}
+  .media-audience-heading h3{font-size:clamp(33px,9.8vw,60px)}
+  .media-total{text-align:left}
+  .media-total>strong{font-size:clamp(95px,29vw,160px)}
+  .media-total p{font-size:10px;margin-top:15px}
+  .media-cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .media-cards>a{padding:22px 15px;border-bottom:1px solid #ffffff35}
+  .media-cards>a:nth-child(even){border-right:0}
+  .media-cards>a:last-child{grid-column:1/-1;border-bottom:0}
+  .media-name{font-size:15px}
+  .media-cards strong{font-size:37px;margin:20px 0 10px}
+  .media-handle{font-size:11px}
+  .media-ambition{font-size:25px;max-width:24ch;margin-top:25px}
+  .launch-head{display:block}
+  .launch-head .display{font-size:clamp(35px,11.1vw,70px);max-width:none;line-height:1.04;margin-bottom:25px}
+  .launch-head>p{max-width:none}
+}
+@media(max-width:380px){
+  .wordmark{font-size:12px;letter-spacing:-.055em}
+  .topbar{gap:7px}
+  .header-actions{gap:6px}
+  .culture-photo figcaption strong{font-size:20px}
+  .media-cards>a{padding:20px 11px}
+  .media-name{font-size:13px}
+  .media-cards strong{font-size:32px}
+  .media-handle{font-size:10px}
+  .media-total p{font-size:9px}
+  .launch-head .display{font-size:10.9vw}
+}
+@media(prefers-reduced-motion:reduce){.media-cards>a{transition:none}}

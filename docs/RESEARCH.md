@@ -55,3 +55,28 @@ Brand names and artwork belong to their respective owners. Inclusion in this pro
 - `assets/jersey-back-v3.webp`: built-in ImageGen product mockup. Prompt: use `kit-original-back.png` as the exact back-design reference and `jersey-hero-v2.webp` for realistic material/style; preserve purple/black stripes, pinstripes, crown and trim; place a single compact YOUR LOGO HERE line high on the back below the crown; no nonprofit mark, name or number; transparent background.
 - Both generated PNGs were inspected and converted to WebP for delivery. The old combined-mark renders remain in Git history/assets but are not referenced by the page.
 - The code-native original-art viewer overlays exactly one mark per side and supports the reversed arrangement. These are proposed placements, not approved manufacturing artwork.
+
+## October 14, 2026: official marks, portfolio and media audiences
+
+### Official artwork
+
+- Street Soccer USA official white SVG, discovered in its Sacramento page footer: https://www.streetsoccerusa.org/wp-content/uploads/img/ssusa_logo_sans.svg. Saved intact as assets/street-soccer-usa-logo.svg. Its vector paths are also embedded in assets/jersey-front-v4.svg. The logo has not been redrawn or generated.
+- Nivelcrack FIFA 23 Captain Korea kit, official project page, February 28, 2023: https://www.nivelcrack.com/blogPost/fifa23_captainkit. Official image https://contents.sixshop.com/uploadedFiles/88608/blogPost/image_1677575945911.jpg. Saved as assets/nivel-fifa23.webp.
+- West Ham × Nivelcrack jacket, official club shop: https://shop.whufc.com/new-in/new-in/new-in/15245_west-ham-x-nivelcrack-jacket.html. Official image https://shop.whufc.com/siteimg/prodhires/15245-872.jpg. Saved as assets/nivel-westham.webp.
+- Club América × Nivelcrack corroboration: https://www.clubamerica.com.mx/noticias/club-america-hace-historia-en-la-complexcon-2024 and https://en.nivelcrack.com/product/ncca25_shirt_offwhite. West Ham selected for the second large portfolio photograph.
+
+The two jersey v4 bitmap bases were edited with image generation using the existing v3 artwork: remove the generic Street Soccer USA words from the front while preserving the design; enlarge the upper-back sponsor words shoulder to shoulder. The actual official vector logo is then composited in the front SVG without altering its paths. Back sponsor text is a concept, not production artwork.
+
+### Public Instagram follower snapshot
+
+Researched October 14, 2026. Third-party public estimates are rounded for presentation, with source links in the website’s Sources & proposal notes.
+
+| Outlet / account | Observed followers | Display | Source |
+| --- | ---: | ---: | --- |
+| HYPEBEAST / @hypebeast | 10,242,180 | 10.24M | https://hypeauditor.com/instagram/hypebeast/ |
+| SoccerBible / @soccerbible | 5,552,795 | 5.55M | https://hypeauditor.com/instagram/soccerbible/ |
+| COPA90 / @copa90 | 1,348,330 | 1.35M | https://hypeauditor.com/instagram/copa90/ |
+| VERSUS / @versus | approximately 681,200 | 681K | https://jolygram.com/en/profile/versus/4681307563 |
+| MUNDIAL / @mundialmag | 185,083 | 185K | https://pictame.com/en/instagram/mundialmag/1248721511/analytics |
+
+Gross total approximately 18,009,588, presented as approximately 18M combined Instagram followers. The roster comes from the supplied Nivelcrack deck plus the project owner’s request to use global HYPEBEAST and add VERSUS. Do not interpret the roster as confirmed editorial coverage or inventory. Audiences overlap and follower totals are not unique reach or campaign impression forecasts. “Millions of global digital impressions” is explicitly framed as the ambition and depends on secured coverage and distribution.

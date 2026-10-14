@@ -14,10 +14,14 @@
 
 - Use Kings purple, silver, white, and black. No yellow, lime, or gold accents.
 - Make the Sacramento Kings collaboration explicit and identify them briefly as Sacramento’s NBA team.
-- Keep sponsor marks compact and traditionally proportioned. Use jersey-front-v3.webp for Street Soccer USA alone on the front and jersey-back-v3.webp for the small upper-back sponsor. Never display the old combined sponsor/nonprofit treatment.
+- Use jersey-front-v4.svg with the actual official Street Soccer USA vector logo on the front, and jersey-back-v4.webp with a large, bold shoulder-to-shoulder sponsor mark on the upper back, per the October 14 revision. Never display the old combined sponsor/nonprofit treatment.
 - Treat first-of-its-kind language as campaign ambition, not a verified historical first.
 
 - Introduce Sacramento Kings and Nivelcrack at the beginning. This is a full apparel collaboration; the purple jersey is the centerpiece of a wider collection, per the owner.
 - Lead with the global clothing collaboration and sponsorship opportunity. Then the Sacramento community campaign, Nivelcrack and its global footprint, proposed talent/launch/deliverables, and a direct “Partner with us” close.
 - Street Soccer USA is the nonprofit initiative amplified by the campaign. Lead with its Sacramento work, not Lisa and Tiffany’s biography. Do not invent impact statistics.
-- Sponsor and Street Soccer USA marks must be on opposite sides of the jersey, never grouped together. Default: Street Soccer USA front, small sponsor high on the back. The interactive study can reverse that arrangement.
+- Sponsor and Street Soccer USA marks must be on opposite sides of the jersey, never grouped together. Default: Street Soccer USA front, bold shoulder-to-shoulder sponsor high on the back. The interactive study can reverse that arrangement.
+
+- The header reads “Sacramento Kings FC”. The Nivelcrack heading is simply “Nivelcrack”.
+- Use the official FIFA 23 and West Ham × Nivelcrack project photographs, with source credit.
+- Media connections are HYPEBEAST, SoccerBible, COPA90, VERSUS and MUNDIAL. Counts must be dated and sourced. Approximate combined followers are not unique reach, booked distribution or guaranteed impressions.
