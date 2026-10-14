@@ -174,3 +174,24 @@ body .sponsor-placement>span{font-size:2.9cqw;line-height:1.15;overflow-wrap:any
 @media(max-width:380px){.placement-heading h3{font-size:35px}.placement-product img{height:180px}.placement-pair figcaption strong{font-size:14px}.nivel-signature{font-size:8px;gap:8px}}
 @media(prefers-reduced-motion:reduce){.placement-product img{transition:none}}
 .paused .placement-product img{transition:none}
+
+/* Keep the offer explicit before the visual, and contain decorative depth. */
+.hero{overflow:clip}
+.collaboration-declaration{font-size:18px;line-height:1.45;margin-top:22px;position:relative;z-index:4}
+.collaboration-declaration strong{display:block;font-size:24px;font-weight:750;letter-spacing:-.035em}
+.collaboration-declaration span{display:block;font-size:15px;margin-top:4px;color:#514a58}
+.hero-composition{margin-top:22px}
+@media(min-width:761px){.hero-title{font-size:clamp(100px,11vw,180px)}.hero-title>span:nth-child(2){padding-left:.15em}}
+@media(max-width:760px){
+  .collaboration-declaration{margin-top:20px}
+  .collaboration-declaration strong{font-size:19px}
+  .collaboration-declaration span{font-size:14px;max-width:285px}
+  .media-strip{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .media-strip>span:not(:first-child){font-size:clamp(17px,5.2vw,22px)}
+  .media-strip>span{min-width:0}
+  .campaign-talent .audience-total{flex-wrap:wrap;gap:12px 20px}
+  body .campaign-talent .talent-card{min-width:0;grid-template-columns:74px minmax(0,1fr);gap:12px;padding:18px 12px}
+  .campaign-talent .talent-card>div{min-width:0}
+  body .campaign-talent .talent-count{grid-column:1/-1}
+  .campaign-talent .talent-handle{overflow-wrap:anywhere}
+}
